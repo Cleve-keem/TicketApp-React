@@ -8,6 +8,8 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Toasts from "./components/Toasts";
 import NavBar from "./components/NavBar";
 
+console.log("hello");
+
 export default function App() {
   return (
     <div className="app-root">
