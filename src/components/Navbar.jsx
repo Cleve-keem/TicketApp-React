@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { getSession, logout } from "../services/authService";
 
-export default function NavBar() {
+export default function Navbar() {
   const nav = useNavigate();
   const session = getSession();
 

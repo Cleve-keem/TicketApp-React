@@ -6,12 +6,12 @@ import Dashboard from "./pages/Dashboard";
 import Tickets from "./pages/Tickets";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Toasts from "./components/Toasts";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <div className="app-root">
-      <NavBar />
+      <Navbar />
       <main className="container">
         <Routes>
           <Route path="/" element={<Landing />} />
